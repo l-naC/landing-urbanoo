@@ -134,7 +134,7 @@ const Slider = (props) => {
 
 const SliderCSS = css`
   position:relative;
-  height: 110vh;
+  height: 135vh;
   width: 100vw;
   margin: 0 auto;
   overflow: hidden;

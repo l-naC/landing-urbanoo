@@ -5,11 +5,11 @@ import ButtonL from "../Button";
 
 const Slide = ({ content }) => (
   <Container>
-    <Row className="h-100 align-items-center slider-responsive">
-      <Col sm={6}>
+    <Row className="h-100 align-items-center slider-responsive py-3">
+      <Col sm={6} className="py-5">
         <Col sm={8} className="m-auto text-center">
           <h2>{content[1]}</h2>
-          <p>
+          <p className="px-2">
            {content[2]}
           </p>
           <ButtonL name="Download" />

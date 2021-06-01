@@ -9,12 +9,12 @@ function Intro() {
       <Row className="h-100 align-items-center justify-content-around text-left">
         <Col sm={6}>
           <Col sm={10} className="m-auto">
-            <h1 className="fw-bold">
+            <h1 className="px-3">
               Découvrez une ville de manière différente !
             </h1>
-            <p>Une application proposant des parcours ludique et didactique</p>
-            <img src={google} alt="Google" width="30%" className="me-3"></img>
-            <img src={apple} alt="Apple" width="30%"></img>
+            <p className="px-3">Une application proposant des parcours ludique et didactique</p>
+            <img src={google} alt="Google" width="25%%" className="me-3"></img>
+            <img src={apple} alt="Apple" width="25%"></img>
           </Col>
           
         </Col>
