@@ -41,6 +41,7 @@ function Mentions() {
           Le modèle de mentions légales est offert par Subdelirium.com{" "}
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://www.subdelirium.com/generateur-de-mentions-legales/"
           >
             Mentions légales
@@ -266,7 +267,6 @@ function Mentions() {
           libertés.
         </p>
         <p>
-          {" "}
           Loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie
           numérique.
         </p>

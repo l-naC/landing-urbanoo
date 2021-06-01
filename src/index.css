@@ -43,11 +43,11 @@ code {
   background-position: center;
 }
 
-.mockup{
+.mockup {
   width: 70%;
 }
 
-.text-right{
+.text-right {
   text-align: right;
 }
 
@@ -56,18 +56,14 @@ code {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 75px;
+  padding: 135px;
 }
 
-
-
-@media all and (max-device-width: 480px)
-{
-    /* Vos règles CSS pour les mobiles ici */
-    .slider-responsive{
-      flex-direction: column-reverse;
-    }
-
+@media all and (max-device-width: 480px) {
+  /* Vos règles CSS pour les mobiles ici */
+  .slider-responsive {
+    flex-direction: column-reverse;
+  }
 }
 
 .padding-top {

@@ -3,7 +3,7 @@ import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Mentions from "./components/Mentions";
 import Politic from "./components/Politic";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ErrorPage from "./components/ErrorPage";
 
 function App() {

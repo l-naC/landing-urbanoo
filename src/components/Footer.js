@@ -1,10 +1,6 @@
 import React from "react";
-import footer from "../images/UrbanooFooter.svg";
 import { Container, Col, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import App from "../App";
-import Mentions from "./Mentions";
-import Politic from "./Politic";
 
 function Footer() {
   return (
