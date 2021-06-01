@@ -1,13 +1,75 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto" sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #3c2616;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.btn {
+  background-color: #4390c7 !important;
+  text-transform: uppercase;
+  color: white !important;
+  padding: 10px 25px !important;
+  font-size: 0.8em !important;
+  font-weight: bold !important;
+  filter: drop-shadow(1px 4px 4px #4390c7);
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.teaser {
+  background: url(./images/UrbanooVideo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.zindex-1 {
+  z-index: 1;
+}
+
+.bg-fond {
+  background: url(./images/UrbanooFond.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.mockup{
+  width: 70%;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.bg-footer {
+  background: url(./images/UrbanooFooter.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 75px;
+}
+
+
+
+@media all and (max-device-width: 480px)
+{
+    /* Vos règles CSS pour les mobiles ici */
+    .slider-responsive{
+      flex-direction: column-reverse;
+    }
+
+}
+
+.padding-top {
+  padding-top: 70px;
 }
