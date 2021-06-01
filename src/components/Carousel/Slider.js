@@ -68,7 +68,7 @@ const Slider = (props) => {
 
       if (props.autoPlay) {
         clearInterval(interval);
-      }
+      }  
     };
   }, [props.autoPlay]);
 
