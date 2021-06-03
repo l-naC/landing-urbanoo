@@ -34,7 +34,8 @@ const Dots = ({ slides, activeSlide, handleClick }) => (
         active={activeSlide === i}
         onClick={e =>  handleClick(i)}
       />
-    ))}
+    ))
+    }
   </div>
 );
 

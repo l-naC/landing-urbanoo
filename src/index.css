@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 @import url("https://use.typekit.net/bhd0unc.css");
 
+body{
+  overflow-x: hidden;
+}
+
 body,
 p {
   color: #3c2616 !important;

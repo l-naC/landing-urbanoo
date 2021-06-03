@@ -26,24 +26,6 @@ function Features() {
   ];
 
   return (
-    // <Container fluid className="h-screen">
-    //   <Row className="h-100 align-items-center">
-    //     <Col sm={6}>
-    //       <Col sm={8} className="m-auto text-center">
-    //         <h2>Parcours</h2>
-    //         <p>
-    //           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
-    //           congue velit aliquet ullamcorper semper. Mi mi ullamcorper
-    //           fermentum maecenas. Eleifend feugiat arcu volutpat sit vitae.
-    //         </p>
-    //         <ButtonL name="Download" />
-    //       </Col>
-    //     </Col>
-    //     <Col sm={6}>
-
-    //     </Col>
-    //   </Row>
-    // </Container>
     <Slider slides={images} />
   );
 }

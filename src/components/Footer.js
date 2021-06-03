@@ -9,22 +9,30 @@ function Footer() {
     <Container fluid className="footer text-white">
       <Row>
         <Col className="bg-footer">
-          <ul class="d-flex justify-content-center list-unstyled mb-5">
+          <ul className="d-flex justify-content-center list-unstyled mb-5 flex-column flex-sm-column flex-md-row flex-lg-row text-center">
             <li className="me-3">
-              <Link to="/mentions" className="text-white text-decoration-none">Mentions légales</Link>
+              <Link to="/mentions" className="text-white text-decoration-none">
+                Mentions légales
+              </Link>
             </li>
             <li>
-              <Link to="/politic" className="text-white text-decoration-none">Politique de confidentialité</Link>
+              <Link to="/politic" className="text-white text-decoration-none">
+                Politique de confidentialité
+              </Link>
             </li>
           </ul>
-          <div class="d-flex flex-column align-items-center">
+          <div className="d-flex flex-column align-items-center">
             <p>Suivez-nous :</p>
             <div>
-              <a href="https://www.facebook.com/UrbanooApp"><img src={facebook} alt="facebook"  className="img-rs mx-2" /></a>
-              <a href="https://twitter.com/Urbanoo9"><img src={twitter} alt="twitter" className="img-rs mx-2"/></a>
+              <a href="https://www.facebook.com/UrbanooApp">
+                <img src={facebook} alt="facebook" className="img-rs mx-2" />
+              </a>
+              <a href="https://twitter.com/Urbanoo9">
+                <img src={twitter} alt="twitter" className="img-rs mx-2" />
+              </a>
             </div>
           </div>
-          <p class="text-center my-2 h-auto md:h-8 lg:h-8">
+          <p className="text-center my-2 h-auto md:h-8 lg:h-8">
             © 2021 par Urbanoo
           </p>
         </Col>

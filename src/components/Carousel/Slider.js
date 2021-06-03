@@ -68,7 +68,7 @@ const Slider = (props) => {
 
       if (props.autoPlay) {
         clearInterval(interval);
-      }  
+      }
     };
   }, [props.autoPlay]);
 
@@ -106,9 +106,10 @@ const Slider = (props) => {
   function changeSlide(index) {
     setState({
       ...state,
-      translate: (index + slides.length) - slides.length,
-      activeSlide: index,
+      translate: index,
+      activeSlide: index + slides.length - slides.length,
     });
+    console.log(translate);
   }
 
   return (
@@ -133,7 +134,7 @@ const Slider = (props) => {
 };
 
 const SliderCSS = css`
-  position:relative;
+  position: relative;
   height: 135vh;
   width: 100vw;
   margin: 0 auto;

@@ -3,8 +3,8 @@ import React from "react";
 function Mentions() {
   return (
     <div className="padding-top">
-      <h1 class="text-2xl font-black my-3">Mentions Légales</h1>
-      <div class="w-4/5 m-auto mb-3 text-left">
+      <h1 className="text-2xl font-black my-3">Mentions Légales</h1>
+      <div className="w-4/5 m-auto mb-3 text-left">
         <strong>
           La seule contrepartie à l'utilisation de ces mentions légales, est
           l'engagement total à laisser le lien crédit subdelirium sur cette page
