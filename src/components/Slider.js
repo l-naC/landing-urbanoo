@@ -2,7 +2,6 @@ import React from "react";
 import $ from "jquery";
 import { Container, Col, Row } from "react-bootstrap";
 import ButtonL from "./Button";
-import { css } from "@emotion/react";
 
 class SliderConntent extends React.Component {
   static defaultProps = {
