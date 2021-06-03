@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 @import url("https://use.typekit.net/bhd0unc.css");
 
-body{
+body {
   overflow-x: hidden;
 }
 
@@ -78,17 +78,85 @@ code {
   padding: 55px;
 }
 
-@media all and (max-device-width: 480px) {
-  /* Vos règles CSS pour les mobiles ici */
-  .slider-responsive {
-    flex-direction: column-reverse;
-  }
-}
-
 .padding-top {
   padding-top: 70px;
 }
 
 .img-rs {
   width: 20px;
+}
+
+.slider {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  position: relative;
+}
+
+.slider .slider-content {
+  display: flex;
+  position: relative;
+  transition: all 0.2s ease-out;
+}
+.slider .slider-slide {
+  flex-shrink: 0;
+  width: 100%;
+}
+.slider .slider-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  bottom: 50%;
+  width: auto;
+  top: 50%;
+  right: 25px;
+}
+.slider .slider-dot {
+  background: #61a64e;
+  transition: all 0.15s ease;
+  cursor: pointer;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.slider .slider-dot.selected {
+  background: #4390c7;
+}
+.slider .slider-dot:hover {
+  box-shadow: 0 0 0 3px #61a64e;
+}
+
+.slider .slider-dot.selected:hover {
+  box-shadow: 0 0 0 3px #4390c7;
+}
+
+.bg-slides {
+  height: 80vh;
+  width: 100%;
+  margin: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media all and (max-device-width: 480px)
+{
+  .slider-responsive {
+    flex-direction: column-reverse;
+  }
+
+  .slider .slider-dots {
+    flex-direction: row;
+    position: initial;
+  }
+
+  .slider .slider-dot {
+    margin-right: 10px;
+    margin-bottom: 0;
+  }
+
 }

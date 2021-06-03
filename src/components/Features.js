@@ -1,5 +1,5 @@
 import React from "react";
-import Slider from "./Carousel/Slider";
+import Slider from "./Slider";
 
 function Features() {
   const images = [
@@ -26,7 +26,8 @@ function Features() {
   ];
 
   return (
-    <Slider slides={images} />
+    // <Slider slides={images} />
+    <Slider />
   );
 }
 
