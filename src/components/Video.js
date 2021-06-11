@@ -13,7 +13,6 @@ function Video() {
           <ButtonL
             name="Teaser"
             url="https://drive.google.com/file/d/1drTGNbDq3z-mXVc_WPBYfCDFr-w2RS8N/view?usp=sharing"
-            rel="noreferrer"
           />
         </Col>
       </Row>
