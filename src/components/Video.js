@@ -10,9 +10,13 @@ function Video() {
           <h2 className="text-white">
             Découvrez le teaser de notre application
           </h2>
-          <ButtonL name="Teaser" />
+          <ButtonL
+            name="Teaser"
+            url="https://drive.google.com/file/d/1drTGNbDq3z-mXVc_WPBYfCDFr-w2RS8N/view?usp=sharing"
+            rel="noreferrer"
+          />
         </Col>
-      </Row> 
+      </Row>
     </Container>
   );
 }

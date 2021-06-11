@@ -40,6 +40,11 @@ code {
   filter: drop-shadow(1px 4px 4px #4390c7);
 }
 
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+
 .h-screen {
   height: 100vh;
 }
@@ -143,8 +148,7 @@ code {
   background-position: center;
 }
 
-@media all and (max-device-width: 480px)
-{
+@media all and (max-device-width: 480px) {
   .slider-responsive {
     flex-direction: column-reverse;
   }
@@ -158,5 +162,4 @@ code {
     margin-right: 10px;
     margin-bottom: 0;
   }
-
 }

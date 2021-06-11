@@ -1,8 +1,15 @@
-import '../index.css';
+import "../index.css";
 
 function ButtonL(props) {
   return (
-      <button className="btn">{props.name}</button>
+    <button className="btn">
+      <a
+        href={props.url}
+        target="_blank"
+      >
+        {props.name}
+      </a>
+    </button>
   );
 }
 
